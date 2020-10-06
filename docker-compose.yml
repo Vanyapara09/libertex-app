@@ -1,0 +1,9 @@
+version: '3.7'
+services:
+  account-app:
+    container_name: libertex.account.app
+    build:
+      context: ./
+    image: libertex:latest
+    ports:
+      - "8080:8080"

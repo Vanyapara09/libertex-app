@@ -1,0 +1,7 @@
+{
+  "response": {
+    "id": 1,
+    "balance": 10,
+    "currency": "USD"
+  }
+}

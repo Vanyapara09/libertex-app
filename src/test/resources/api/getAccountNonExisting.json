@@ -1,0 +1,6 @@
+{
+  "response": {
+    "message": "Account with id: 1 is not found",
+    "status": 404
+  }
+}

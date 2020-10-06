@@ -1,0 +1,10 @@
+{
+  "response": {
+    "id": 1,
+    "operation": "CREDIT",
+    "status": "SUCCESS",
+    "amount": 10,
+    "currency": "USD",
+    "accountId": 1
+  }
+}

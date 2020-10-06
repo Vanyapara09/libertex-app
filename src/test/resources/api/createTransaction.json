@@ -1,0 +1,16 @@
+{
+  "request": {
+    "operation": "CREDIT",
+    "amount": 10,
+    "currency": "USD",
+    "accountId": 1
+  },
+  "response": {
+    "id": 1,
+    "operation": "CREDIT",
+    "amount": 10,
+    "currency": "USD",
+    "status": "INITIATED",
+    "accountId": 1
+  }
+}
