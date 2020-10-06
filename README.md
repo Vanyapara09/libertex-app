@@ -6,13 +6,27 @@ This readme describes how to start app on local machine
 
 ### App setup
 
+Run command to build app:
+```shell script
+gradle build
+```
+
+### App Run
+
+#### Using gradle
+
+Start app:
+```shell script
+gradle bootRun
+```
+
+#### Using docker-compose
+
 Run command to build image:
 
 ```shell script
 docker-compose build
 ```
-
-### Run
 
 Start app:
 ```shell script
