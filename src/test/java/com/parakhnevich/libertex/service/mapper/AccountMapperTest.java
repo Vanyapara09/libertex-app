@@ -27,6 +27,7 @@ public class AccountMapperTest {
         accountEntity.setBalance(BigDecimal.TEN);
         accountEntity.setVersion(1);
         accountEntity.setTransactions(Lists.newArrayList(new TransactionEntity()));
+        accountEntity.setCurrency("USD");
 
         //when
         AccountResponse accountResponse = accountMapper.mapEntityToResponse(accountEntity);

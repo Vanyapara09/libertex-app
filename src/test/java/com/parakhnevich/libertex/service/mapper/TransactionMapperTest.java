@@ -79,6 +79,7 @@ public class TransactionMapperTest {
         transactionEntity.setId(1L);
         transactionEntity.setOperation(OperationName.CREDIT);
         transactionEntity.setAmount(BigDecimal.TEN);
+        transactionEntity.setCurrency("USD");
         AccountEntity account = new AccountEntity();
         account.setId(1L);
         transactionEntity.setAccount(account);
@@ -90,6 +91,7 @@ public class TransactionMapperTest {
         request.setAccountId(1L);
         request.setAmount(BigDecimal.TEN);
         request.setOperation(OperationName.CREDIT);
+        request.setCurrency("USD");
         return request;
     }
 
